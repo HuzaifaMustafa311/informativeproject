@@ -1,0 +1,1121 @@
+/*Huzaifa Mustafa*/
+
+/*Huzaifa Mustafa*/
+.mens-icon img {
+  height: 50px;
+  width: 50px;
+  color: #123152;
+}
+
+.mens-icon h4 {
+  font-weight: 700;
+  color: #226E93;
+}
+
+.mens-icon p {
+  color: #343434;
+}
+
+#hero {
+  height: 80vh !important;
+  background: url('portfolio-8.jpg') !important;
+}
+
+.upsection {
+  background: #F2F2F2 !important;
+}
+.contentt h1{
+  /*font-weight: bold;*/
+  font-family: "Lato", sans-serif;
+}
+
+.contentt a {
+  width: 100%;
+  background: #FFFFFF;
+  color: rgba(34,110,147,1);
+}
+.about {
+  background: #1E6C93 !important;
+}
+
+
+
+
+.mens-icon img {
+  height: 50px !important;
+  width: 50px !important;
+  color: #123152 !important;
+}
+
+.mens-icon h4 {
+  font-weight: 700 !important;
+  color: #226E93 !important;
+}
+
+.mens-icon p {
+  color: #343434 !important;
+}
+.content-item {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.content .btn {
+  background: #1E6C93;
+  border: 1px solid #1E6C93;
+  color: #fff !important;
+}
+.content h2 {
+  color: rgba(34,110,147,1);
+  font-family: Lato-Thin !important;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+    text-align: center;
+}
+.content p {
+  line-height: 1.5;
+}
+#clients {
+  background: #F2F2F2;
+}
+#clients .headngg {
+  color: #980000;
+}
+.headngg {
+  color: #980000;
+}
+#clients .headngg2 {
+  color: #226E93;
+}
+#features .heaady {
+  color: rgba(34,110,147,1);
+  font-size: 41px;
+}
+#faq {
+  background: #F2F2F2;
+}
+#faq .faq-list li .question {
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+  padding: 20px 20px;
+  color: #000000;
+  font-family: 'Arial' !important;
+  font-variant: normal;
+  font-weight: normal !important;
+  vertical-align: baseline;
+
+}
+#faq .faq-list li .question:hover {
+  color: black;
+}
+.faq .faq-list .question {
+  color: black !important;
+}
+#clientss .card {
+  padding: 10px !important; 
+  border-radius: 5px;
+}
+#Parallax {
+  padding: 0;
+}
+#Parallax .container h1 {
+  color: white;
+  line-height: 1;
+  font-size: 50px;
+  font-weight: bold;
+}
+#Parallax .container span {
+  color: yellowgreen;
+  line-height: 1;
+  font-size: 50px;
+  font-weight: bold;
+}
+.have {
+  height: 110px;
+}
+.scrolbutn i {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+.faq .faq-list i { 
+  position: relative !important;
+  float: right !important;
+}
+#features .content .paragr {
+  line-height: 1.5;
+}
+#featur .paragr {
+  line-height: 2;
+}
+.linehr {
+  border-bottom: 1px solid black;
+}
+.projetpara {
+  line-height: 2.3 !important;
+  font-family: Lato, sans-serif;
+}
+.contactcrd {
+  padding: 30px 30px;
+}
+#about .contentt .paragrap {
+  line-height: 30px !important;
+}
+
+
+
+.navbar .active, .navbar .active:focus,
+.navbar a:focus{
+  font-family: Lato-bold;
+  /*color: #000 !important;*/
+
+}
+#features .heaady {
+  font-size: 25px;
+  font-family: Lato-bold !important;
+
+}
+#features .heaadyss {
+  font-family: Lato, sans-serif !important;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  font-size: 41px;
+  color: rgba(34,110,147,1);
+}
+
+#features .paragrr {
+  line-height: 2;
+  color: #333333;
+  font-family: 'Arial';
+  font-size: 17px;
+  font-weight: normal;
+  vertical-align: baseline;
+  text-align: justify;
+}
+#features a{
+  font-size: 14px !important;
+  font-family: Lato-Regular !important;
+
+}
+#features p,
+#features h4,
+.btn{
+  font-family: Lato-Regular !important;
+}
+#clients h4{
+  color:rgba(33,33,33,1);
+}
+a:hover,
+a{
+  color: rgba(34,110,147,1) !important;
+}
+.section-bg#clientss {
+    background-color: #ffffff;
+}
+.client-logo.card{
+  border-color: #fff;
+  padding: 0 !important
+}
+#footer .footer-top .footer-links ul a{
+/*  color: black !important;*/
+  font-size: 18px;
+  text-decoration: underline;
+}
+#footer .footer-top .footer-links ul a:hover{
+  color: #fefefe;
+}
+.footer-newsletter img{
+  opacity: 0.8
+}
+#about .contentt{
+  padding-right: 30px;
+}
+
+
+
+#homeBgSection1 { 
+  background: url('../img/NFTProject.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative; 
+  opacity: 0.8;
+}
+#homeBgSection1 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection1 .homeBanner h1,
+#homeBgSection1 .homeBanner span{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+}
+#homeBgSection1 .homeBanner span{
+  color: #ffff00
+}
+#homeBgSection1 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection1 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection1 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+
+#homeBgSection2 { 
+  background-color: #FEFAF9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative; 
+}
+#homeBgSection2 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection2 .blacktext h1,
+#homeBgSection2 .homeBanner span{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: black;
+}
+
+.comingsoon {
+    font-size: 71px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+}
+.blueclr {
+  color: #0645AD;
+}
+
+
+
+
+
+#homeBgSection2 .homeBanner span {
+  color: #ffff00
+}
+#homeBgSection2 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection2 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection2 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+.comunatesec {
+  padding: 25px;
+}
+#homeBgSection2 .blacktext i {
+  color: black !important;
+  font-size: 35px;
+  float: left !important;
+  font-weight: bold;
+}
+
+
+
+
+#homeBgSection3 { 
+  background-color: #FEFAF9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative; 
+}
+#homeBgSection3 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection3 .blacktext h1{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: black;
+}
+#homeBgSection3 .blacktext span{
+  color: black;
+  font-size: 28px;
+}
+/*#homeBgSection3 .homeBanner span{
+  color: #ffff00
+}*/
+#homeBgSection3 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection3 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection3 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+#features11 p, #features11 a{
+    font-family: Lato !important;
+    color: rgba(34,110,147,1);
+    font-size: 18px;
+}
+
+
+
+
+#homeBgSection4 { 
+  background-color: #FEFAF9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative;
+  opacity: 0.8;
+}
+#homeBgSection4 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection4 .homeBanner h1,
+#homeBgSection4 .homeBanner span{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+
+}
+#homeBgSection4 .homeBanner h1{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: black;
+  font-family: Lato, sans-serif !important;
+}
+#homeBgSection4 .homeBanner span{
+  color: #ffff00
+}
+#homeBgSection4 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection4 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection4 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+#features8 {
+  padding: 20px 0px !important;
+}
+
+
+
+
+#homeBgSection5 { 
+  background-color: #FEFAF9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative;
+  opacity: 0.8;
+}
+#homeBgSection5 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection5 .homeBanner h1,
+#homeBgSection5 .homeBanner span{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+}
+#homeBgSection5 .homeBanner h1{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+  font-family: Lato, sans-serif !important;
+}
+#homeBgSection5 .homeBanner span{
+  color: #ffff00
+}
+#homeBgSection5 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection5 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection5 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+
+
+
+
+
+#homeBgSection6 { 
+  background: url('../img/heell.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative; 
+}
+#homeBgSection6 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection6 .homeBanner h1,
+#homeBgSection6 .homeBanner span{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+}
+#homeBgSection6 .homeBanner h1{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+  font-family: Lato, sans-serif !important;
+}
+#homeBgSection6 .homeBanner span{
+  color: #ffff00
+}
+#homeBgSection5 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection6 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection6 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+
+
+
+
+#homeBgSection7 { 
+  background-color: #FEFAF9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative; 
+}
+#homeBgSection7 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection7 .blacktext h1{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: black;
+}
+#homeBgSection7 .blacktext span{
+  color: black;
+  font-size: 32px;
+}
+/*#homeBgSection3 .homeBanner span{
+  color: #ffff00
+}*/
+#homeBgSection7 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection7 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection7 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+#featur {
+  padding: 25px 0px;
+}
+#featur .content h3 {
+  font-size: 33px !important;
+}
+/*#featur .content .paragr {
+  font-size: 18px !important;
+  line-height: 2;
+  font-family: Lato, sans-serif !important;
+}*/
+.eventpara {
+  line-height: 2.1;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  color: rgba(33,33,33,1);
+  font-weight: 600;
+}
+
+
+
+
+#homeBgSection8 { 
+  background: url('../img/AM.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative; 
+  opacity: 0.7;
+}
+#homeBgSection8 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection8 .homeBanner h1,
+#homeBgSection8 .homeBanner span{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+}
+#homeBgSection8 .homeBanner h1{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #fff;
+  font-family: Lato, sans-serif !important;
+}
+#homeBgSection8 .homeBanner span{
+  color: #ffff00
+}
+#homeBgSection8 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection8 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection8 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+#features8 {
+  padding: 20px 0px !important;
+}
+
+#features {
+border-top: 1px solid rgba(0,0,0,0.150000006);  
+}
+#clientss {
+border-top: 1px solid rgba(0,0,0,0.150000006);  
+}
+#homeBgSection9 { 
+  background: url('../img/heSIEM.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto; 
+  position: relative; 
+}
+#homeBgSection9 .homeBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#homeBgSection9 .blacktext h1{
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: black;
+}
+#homeBgSection9 .blacktext span{
+  color: black;
+  font-size: 32px;
+}
+/*#homeBgSection3 .homeBanner span{
+  color: #ffff00
+}*/
+#homeBgSection9 .homeBanne .scrolbutn i {
+  font-weight: bold;
+}
+#homeBgSection9 .homeBanner a.scrolbutn  {
+  color: #bbbaba !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+#homeBgSection9 .homeBanner a.scrolbutn:hover  {
+  color: #f2f2f2;
+}
+#features11 p, #features11 a{
+    font-family: Lato !important;
+    color: rgba(34,110,147,1);
+    font-size: 18px;
+}
+.contctcrds {
+  border-radius: 8px;
+  border-top: 10px solid #9E9E9E;
+}
+.contctcrds .happy{
+  font-size: 31px;
+  font-family: "Lato", sans-serif;
+
+}
+.soumet-btn a {
+  background-color: #9E9E9E !important;
+  color: white !important;
+  border: #9E9E9E !important;
+}
+
+
+#features4 .fomcontrolrow .form-control .googlefom {
+  color: black !important;
+}
+#features4 .form-control .nvitems .hel1 {
+  color: black !important;
+}
+#features4 .fomcontrolrow .help {
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 12px;
+}
+
+#features .sidetext {
+  text-align: justify;
+}
+
+.searchForm {
+  padding: 10px 15px;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchForm .searchInput{
+  box-shadow: 1px 2px 7px 1px rgb(0 0 0 / 19%);
+  background: #eee;
+  border-radius: 8px;
+}
+.searchForm .searchInput input{
+  border: 0px;
+  line-height: 36px;
+  font-family: Lato-Regular;
+  width: 350px;
+}
+.searchForm .searchInput input:focus{
+  box-shadow: none;
+}
+.searchForm .searchInput .input-group-text{
+  border-color: #fff;
+  background-color: #fff;
+}
+.searchForm .hideSearch{
+  cursor: pointer;
+}
+#footer .footer-newsletter a img {
+  height: 50px;
+}
+#faq h2 {
+  color: rgba(34,110,147,1);
+  font-family: Lato-Thin !important;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  text-align: center;
+}
+#testimonial .card h6 {
+  color: #ffcc00;
+}
+.lgn-btn {
+  padding: 0px 15px !important;
+  color: white !important;
+  margin-left: 26px;
+  background: #1E6C93;
+  font-weight: normal !important;
+  border-radius: 6px;
+  border: none;
+}
+.lgn-btn:hover {
+  font-weight: bold !important; 
+  background: #1E6C93;
+  color: white !important;
+  border: none;
+}
+
+.liness::before {
+  /*position: absolute;*/
+  content: "";
+  height: 20px !important;
+  width: 2px;
+  background-color: #1E6C93;
+  top: 9px;
+  left: 1168px;
+}
+.contentt a:hover {
+  background: white;
+  color: rgba(34,110,147,1);
+}
+.carousel-indicators{
+  list-style: disc;
+}
+.carousel-indicators li{
+  color: #bfbfbf;
+  z-index: 9999;
+  opacity: 1;
+  width: 14px;
+  height: 12px;
+
+}
+.carousel-indicators li.active{
+  color: #626262
+}
+
+#steps .content-items .forpara {
+  font-size: 11pt;
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  line-height: 1.6667;
+  margin-top: 12px;
+}
+
+#steps .content-items .text-center {
+  width: 64%;
+}
+#fourcolsec .content-items img {
+  width: 25%;
+}
+
+  #clientss .client-logo {
+  height: 128px;
+  width: 128px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+#homeBgSection .homeBanner {
+    height: 88vh;
+}
+.lgn-btn {
+  margin-right: 20px;
+  margin-top: 6px;
+  justify-content: center;
+  display: block;
+}
+#Parallax .container span {
+  font-size: 26px;
+}
+#Parallax .container h1 {
+  font-size: 28px;
+}
+.crd-upsection h2 {
+  font-size: 20px;
+}
+.steps .content-item h4 {
+  font-size: 21px;
+}
+.paragrap {
+  font-size: 16px;
+}
+#about .contentt h1 {
+  font-size: 25px;
+}
+.content span {
+  font-size: 30px;
+}
+#features .heaady {
+  font-size: 25px;
+}
+.section-title h2 {
+  font-size: 26px;
+}
+#faq .faq-list li .question {
+  font-size: 19px;
+}
+.regbtn {
+  border: none;
+  color: white !important;
+  border-radius: 25px;
+  padding: 4px 21px;
+  font-size: 19px;
+}
+#homeBgSection1 .homeBanner h1 {
+  font-size: 32pt;
+}
+#features .heaadyss {
+  font-size: 29px;
+}
+#features .paragrr {
+  font-family: 'Arial';
+  font-size: 16px; 
+}
+#features {
+  padding: 6px 0px;
+}
+#clientss {
+  padding: 0px 0px;
+}
+#clientss iframe {
+  width: 323px !important;
+  height: 350px !important;
+}
+#homeBgSection .homeBanner h1, #homeBgSection .homeBanner span {
+  font-size: 26pt !important;
+}
+.contentt a {
+  margin-left: 15px;
+}
+.content h2 {
+  font-size: 34px;
+}
+.features .content + .content {
+  margin-top: 39px;
+}
+#faq {
+  padding: 11px 0px;
+}
+#homeBgSection2 .blacktext h1, #homeBgSection2 .homeBanner span {
+  font-size: 23pt;
+}
+#homeBgSection2 .homeBanner p {
+  font-size: 14px;
+}
+#homeBgSection3 .blacktext h1 {
+  font-size: 24pt;
+}
+#homeBgSection3 .blacktext span {
+  font-size: 13px;
+}
+.projetpara {
+  line-height: 1.7 !important;
+}
+#cliet {
+  padding: 20px 0px;
+}
+#features11{
+  padding: 20px 0px;
+}
+#features11 p, #features11 a {
+    font-size: 16px;
+}
+#footer .footer-top .footer-links ul a {
+    font-size: 16px;
+}
+#homeBgSection4 .homeBanner h1 {
+  font-size: 32pt;
+}
+#homeBgSection5 .homeBanner h1 {
+  font-size: 32pt;
+}
+#homeBgSection6 .homeBanner h1 {
+  font-size: 32pt;
+}
+#homeBgSection7 .homeBanner h1 {
+  font-size: 32pt;
+}
+#featur .content h3 {
+    font-size: 24px !important;
+}
+#featur .content h5 {
+    font-size: 16px !important;
+}
+#homeBgSection8 .homeBanner h1 {
+  font-size: 32pt;
+}
+#homeBgSection9 .homeBanner h1 {
+  font-size: 32pt;
+}
+
+}
+
+@media (min-width: 768px) {
+#fourcolsec .content-items img {
+  width: 35%;
+}
+}
+
+
+
+
+@media (max-width: 768px) {
+.lgn-btn {
+margin-right: 20px;
+margin-top: 6px;
+display: block;
+justify-content: center;
+}
+#homeBgSection .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection .homeBanner span {
+  font-size: 44pt; 
+}
+#homeBgSection1 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection2 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection3 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection3 .blacktext span {
+  font-size: 25px;
+}
+#homeBgSection4 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection5 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection6 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection7 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection8 .homeBanner h1 {
+  font-size: 44pt; 
+}
+#homeBgSection9 .homeBanner h1 {
+  font-size: 44pt; 
+}
+
+}
+
+
+@media (max-width: 992px) {
+
+.lgn-btn {
+  margin-right: 20px;
+  margin-top: 6px;
+  display: block;
+  justify-content: center;
+}
+#homeBgSection .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection .homeBanner span {
+  font-size: 42pt; 
+}
+#homeBgSection1 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection2 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection3 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection4 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection5 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection6 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection7 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection8 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#homeBgSection9 .homeBanner h1 {
+  font-size: 42pt; 
+}
+#featur .content h3 {
+  font-size: 30px !important;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+
+}
+
+
+@media (min-width: 1400px) {
+
+
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+#fourcolsec .content-items img {
+  width: 25%;
+}
+}

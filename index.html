@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>pooyogam</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/faviconn.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Latu Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<style>
+        .card {
+            box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+            /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+            margin: 15px 30px;
+        }
+        .item .card .cardBody{
+            padding: 5px 20px;
+        }
+        .item .card img{
+            margin: 30px auto 15px;
+            width: 200px !IMPORTANT;
+            border-radius: 110px;
+        }
+        .owl-prev{
+            float: left;
+            font-size: xxx-large !important;
+        }
+        .owl-next{
+            float: right;
+            font-size: xxx-large !important;
+        }
+        
+        .owl-theme .owl-nav{
+            position: relative;
+            bottom: 50%;
+            margin: auto;
+        }
+        
+        .owl-theme .owl-nav [class*=owl-]:hover {
+            padding: 0px 1px 10px 1px !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Communauté Bayangam Pôo Yogam</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active liness" aria-current="page" href="#">English</a>
+            <a class="nav-link liness" href="#">Francais</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+     <div class="container-fluid d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo"><img src="assets/img/P.png" alt="" class="img-fluid"><span>pooyogam</span></a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="a-propos.html">About</a></li>
+          <!-- <li><a class="nav-link scrollto" href="comunate.html">Communauté</a></li> -->
+          <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="projets_en_cours.html">Ongoing Projects</a></li>
+              <li><a href="projets_termines.html">Completed Projects</a></li>
+              <li><a href="upcoming-projects.html">Upcoming Projects</a></li>
+            </ul>
+          </li>
+          <!-- <li class="dropdown"><a href="evenements.html"><span>Evenements</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="eventments-galerie-photo.html">Galerie Photo</a></li>
+              <li><a href="soumettre-un-evenement.html">Soumettre un Evenement</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="evenements.html">Events</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          <a class="btn btn-primary lgn-btn" href="contact.html">Login</a>
+          <a class="btn btn-primary lgn-btn" href="contact.html">Register</a>
+
+          <li class="searchIcon">
+            <a class="nav-link scrollto" href="javascript:void(0)">
+            <i class="bi bi-search"></i>
+            </a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav> 
+
+      <div class="searchForm" style="display: none;">
+        <i class="bi bi-arrow-left hideSearch"></i>
+        <form method="post">
+          <div class="input-group searchInput">
+            <span class="input-group-text" id="addon-wrapping">
+              <i class="bi bi-search"></i>
+            </span>
+            <input type="text" class="form-control" name="search" placeholder="Search this site">
+          </div>
+        </form>
+      </div>
+  </header>
+
+  <section id="homeBgSection" data-speed="8" data-type="background">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-md-12 text-center">
+          <div class="homeBanner">
+            <h1>Bayangam Community</h1>
+            <span>Poo Yogam</span>
+            <a href="#" class="btn btn-primary mt-3 regbtn">Register Now</a>
+            <a class="scrolbutn" href="#steps"><i class="bi bi-chevron-down icon-show"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="clients" class="clients">
+    <div class="container" data-aos="zoom-in">
+      <div class="row">
+        <div class="col-12 align-items-center justify-content-center crd-upsection">
+          <h2><strong>Welcome BAYANGAM People / Pό Nso Peupon Pôo Yogam</strong></h2>
+          <p>This platform invites us all to action for our dear community. Together we will go further</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="steps" class="steps">
+    <div class="container">
+      <div class="row no-gutters" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
+          <div  class="text-center mens-icon">
+            <img src="assets/img/team.png" alt="">
+            <h4>Associations / Groups</h4>
+            <p>Group all Bayangam associations and groups around the world for the development of our dear village and community</p>
+          </div>   
+        </div>
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+          <div  class="text-center mens-icon">
+            <img src="assets/img/teamwork.png" alt="">
+            <h4>Families</h4>
+            <p>Bayangam families all over the world can be listed</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+          <div  class="text-center mens-icon">
+            <img src="assets/img/standing-up-man-.png" alt="">
+            <h4>Individuals</h4>
+            <p>Bayangam individuals belonging to any group or association to take part in the projects and events registered in the platform</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="textimgsec col-md-7 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="contentt">
+              <h1>Receive Emails from His Majesty</h1>
+              <p class="mt-3 paragrap">
+                For any information from the chiefdom and in particular from his Majesty, Subscribe to Newsletter from your account. Receive greetings, personalized messages and more from The Chief Bayangam.
+              </p>
+              <a href="#" class=" btn btn-primary">REGISTER IN THE COMMUNITY</i></a>
+            </div>
+          </div>
+          <div class="textimgsec col-md-5 d-flex align-items-stretch" data-aos="fade-right">
+            <img src="assets/img/bib.png" class="img-fluid mt-3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="clients have">
+      <div class="container" data-aos="zoom-in">
+        <div class="row mt-3 pt-md-2">
+          <div class="col-12 align-items-center justify-content-center crd-upsection">
+          <h4><strong>Together, what are we capable of?</strong></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fourcolsec" class="fourcolsec">
+      <div class="container">
+        <div class="row no-gutters" data-aos="fade-up">
+          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="100">
+            <div  class="text-center">
+              <img src="assets/img/project.png" class="img-fluid" alt="">
+              <!-- <h4>Associations / Groupes</h4> -->
+              <p class="forpara">Propose and contribute to community projects.</p>
+            </div>   
+          </div>
+          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="200">
+            <div  class="text-center">
+              <img src="assets/img/event.jpg" class="img-fluid" alt="">
+              <!-- <h4>Familles</h4> -->
+              <p class="forpara">Participate in events and activities that mark our community.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="200">
+            <div  class="text-center">
+              <img src="assets/img/Screenshot1.png" class="img-fluid" alt="">
+              <!-- <h4>Familles</h4> -->
+              <p class="forpara">Supporting bereaved Bayangam families</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="300">
+            <div  class="text-center">
+              <img src="assets/img/Screenshot2.png" class="img-fluid" alt="">
+              <!-- <h4>Individus</h4> -->
+              <p class="forpara">Make multifaceted contributions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="clients have">
+      <div class="container" data-aos="zoom-in">
+        <div class="row mt-3 pt-md-2">
+          <div class="col-12 align-items-center justify-content-center crd-upsection">
+          <h4><strong>Projects and Events impacting our community</strong></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features" data-aos="fade-up">
+      <div class="container">
+        <div class="row content d-flex justify-content-evenly">
+          <div class="col-md-4 pt-4" data-aos="fade-left" data-aos-delay="100">
+            <h2>Projects</h2>
+            <p class="text-center mt-3">
+              Community projects are set up by groups, associations and Yogam descendants. Let's find out what has been done, what is being done and what will be done and let's make our contribution to the development of our native land.
+            </p>
+            <a href="#" class="btn btn-primary mt-5 w-100">Learn more..</i></a>
+          </div>
+
+         <div class="col-md-6 mt-2" data-aos="fade-right" data-aos-delay="100">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img class="img-fluid d-block w-100" src="assets/img/Screen1.png" alt="First slide">
+                  </div>
+
+                 <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="assets/img/Screen2.png" alt="Second slide">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="assets/img/Screen33.png" alt="Third slide">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="assets/img/Screen4.png" alt="Fourth slide">
+                  </div>
+                  
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="row content d-flex justify-content-evenly">
+          <div class="col-md-6 mt-2" data-aos="fade-right" data-aos-delay="100">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/img/Screen5.png" alt="First slide">
+                  </div>
+
+                 <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/Screen6.png" alt="Second slide">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/Screen7.png" alt="Third slide">
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+          <div class="col-md-4 pt-4" data-aos="fade-left" data-aos-delay="100">
+            <h2>Events</h2>
+            <p class="text-center mt-3">
+              Several events take place in our community each year. These can be the LaLi Massu Festival organized by the chiefdom, football tournaments, school and holiday activities. We are all invited to participate.
+            </p>
+            <a href="#" class="btn btn-primary mt-5 w-100">Learn more..</i></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-12 align-items-center justify-content-center crd-upsection">
+            <h2 class="headngg"><strong>FESTIVAL LALI-MASSU DEC 2023</strong></h2>
+            <h6 class="headngg2">OUR CULTURE AND TRADITION ARE CALLING US</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features" data-aos="fade-up">
+      <div class="container">
+        <div class="row content d-flex">
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/Festi2020.PNG" class="img-fluid mt-2" alt="">
+          </div>
+          <div class="col-md-5 pt-4 offset-md-1" data-aos="fade-left" data-aos-delay="100">
+            <h4 class="text-center">FESTIVAL LALI-MASSU</h4>
+            <p class="sidetext">
+              Scheduled for December 2023, this is one of the biggest event organized by the Bayangam Chiefdom
+            </p>
+            <a href="#" class="btn btn-primary mt-5 w-100">Register for this Event</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+<!--  <section id="features" class="features" data-aos="fade-up">
+      <div class="container">
+        <div class="row content d-flex justify-content-evenly">
+          <div class="col-md-6 pt-4" data-aos="fade-left" data-aos-delay="100">
+            <h4 class="heaady">Projects Made by Yogam sons</h4>
+            <p class="mt-3">
+              <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in 
+            </p>
+            <a href="#" class="text-decoration-underline mt-3">Learn more..</a>
+          </div>
+          <div class="col-md-6 mt-2" data-aos="fade-right" data-aos-delay="100">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                      <div class="card d-flex flex-column">
+                        <div class="d-flex flex-row pt-4 justify-content-center">
+                        <img src="assets/img/noimg_male.png" style="height: 174px; " alt="avatar" class="rounded-circle"> 
+                        </div>
+                        
+                        <p class="text-center pt-3">SA MAJESTE POUOKAM GEORGES DESIRE</p>
+                        <h5 class="text-center">Roi des Bayangam</h5>
+                        <p class="text-center text-muted mb-5"> Une seule main ne peut faire un paquet, unissons nos efforts, comme un seul homme, bâtissons notre village. </p>   
+                    </div>
+
+
+                  </div>
+                 <div class="carousel-item">
+                      <div class="card d-flex flex-column">
+                        <div class="d-flex flex-row pt-4 justify-content-center">
+                        <img src="assets/img/profile-icon.png" style="height: 174px;" alt="avatar" class="rounded-circle"> 
+                        </div>
+                        
+                        <p class="text-center pt-3">SA MAJESTE POUOKAM GEORGES DESIRE</p>
+                        <h5 class="text-center">Roi des Bayangam</h5>
+                        <p class="text-center text-muted mb-5"> Une seule main ne peut faire un paquet, unissons nos efforts, comme un seul homme, bâtissons notre village. </p>  
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                      <div class="card d-flex flex-column">
+                        <div class="d-flex flex-row pt-4 justify-content-center">
+                        <img src="assets/img/profile-img-icon.jpg" style="height: 174px;" alt="avatar" class="rounded-circle"> 
+                        </div>
+                        
+                        <p class="text-center pt-3">SA MAJESTE POUOKAM GEORGES DESIRE</p>
+                        <h5 class="text-center">Roi des Bayangam</h5>
+                        <p class="text-center text-muted mb-5"> Une seule main ne peut faire un paquet, unissons nos efforts, comme un seul homme, bâtissons notre village. </p>  
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section> -->
+
+    <!-- <div class="section">
+        <div class="container-fluid">
+            <h1 class="my-4 text-center"> What our student says</h1>
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card text-center">
+                            <img src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="slider Image" class="imgcard">
+                            <div class="cardBody mb-3">
+                                <h4>Owl Coursel 1</h4>
+                                <p>When potential customers are researching you online, they're getting to know you through the content on your website. So understandably, many of them might be skeptical or hesitant to trust you right away.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card text-center">
+                            <img src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="slider Image" class="imgcard">
+                            <div class="cardBody mb-3">
+                                <h4>Owl Coursel 10</h4>
+                                <p>When potential customers are researching you online, they're getting to know you through the content on your website. So understandably, many of them might be skeptical or hesitant to trust you right away.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>    
+    </div> -->
+    
+
+    <section id="features" class="features" data-aos="fade-up">
+      <div class="container">
+        <div class="row content d-flex justify-content-center">
+          <div class="col-md-6 mt-2" data-aos="fade-right" data-aos-delay="100">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="height: 23px;"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" style="height: 23px;"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="card d-flex flex-column">
+                        <div class="d-flex flex-row pt-4 justify-content-center">
+                        <img src="assets/img/Picture22.jpg" style="height: 174px; " alt="avatar" class="rounded-circle"> 
+                        </div>
+                        <p class="text-center pt-3">SA MAJESTE POUOKAM GEORGES DESIRE</p>
+                        <h5 class="text-center">King of Bayangam</h5>
+                        <p class="text-center text-muted mb-5"> A single hand cannot make a package, let's unite our efforts, as one man, let's build our village.</p>  
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item">
+                      <div class="card d-flex flex-column">
+                        <div class="d-flex flex-row pt-4 justify-content-center">
+                        <img src="assets/img/test2.jpeg" style="height: 174px;" alt="avatar" class="rounded-circle"> 
+                        </div>
+                        <p class="text-center pt-3">LEOPOLD HYACINTHE NOUETSA</p>
+                        <h5 class="text-center">Former mayor of Bayangam commune</h5>
+                        <p class="text-center text-muted mb-5">J’invite toutes les forces I invite all the driving forces of our borough to join us on the path to global and total development.</p>  
+                    </div>
+                  </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <h2>FAQs</h2>
+      <div class="container" data-aos="fade-up">
+        <ul class="faq-list">
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">If I am already registered by a group, can I re-register individually or as a family? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Indeed, you just have to ask the person in charge of your group to give you your unique code. From your email and your unique code, you can register in a family account or an individual account.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How do I submit a project or event? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Send an email with the details of your project or event to enfantsbayangam@gmail.com and we will contact you.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">I registered individually, can I add my family members later? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+               Yes, you can add relatives at any time and your account will change to the family account.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="clientss" class="section-bg pt-0">
+      <div class="container">
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp mt-3 mb-4" style="visibility: visible; animation-name: fadeInUp;">
+          <div class="col-6 col-lg-2 col-md-4 col-sm-6 mt-md-4 mb-3">
+            <div class="client-logo card">
+              <img src="assets/img/Chefferie.png" class="img-fluid" alt="">
+              <a class="text-center mt-4 text-dark"><strong>Chefferie</strong></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 col-md-4 col-sm-6 mt-md-4 mb-3">
+            <div class="client-logo card">
+              <img src="assets/img/Commune.png" class="img-fluid" alt="">
+              <a class="text-center mt-4 text-dark"><strong>Commune</strong></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 col-md-4 col-sm-6 mt-md-4 mb-3">
+            <div class="client-logo card">
+              <img src="assets/img/BIN.jpg" class="img-fluid" alt="">
+              <a class="text-center mt-4 text-dark"><strong>Bin</strong></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 col-md-4 col-sm-6 mt-md-4 mb-3">
+            <div class="client-logo card">
+              <img src="assets/img/community.jpg" class="img-fluid" alt="">
+              <a class="text-center mt-4 text-dark"><strong>Logo 4</strong></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 col-md-4 col-sm-6 mt-md-4 mb-3">
+            <div class="client-logo card">
+              <img src="assets/img/face.png" class="img-fluid" alt="">
+              <a class="text-center mt-4 text-dark"><strong>Facebook</strong></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 col-md-4 col-sm-6 mt-md-4 mb-3">
+            <div class="client-logo card">
+              <img src="assets/img/twitter.png" class="img-fluid" alt="">
+              <a class="text-center mt-4 text-dark"><strong>Twitter</strong></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial" class="testimonial">
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="image">
+                <img src="assets/img/test2.jpeg"  class="img-fluid" />
+              </div>
+              <div class="card-inner">
+                <div class="header">
+                  <h4>LEOPOLD HYACINTHE NOUETSA</h4>
+                  <h6>Mayor of Bayangam Commune</h6>
+              </div>
+              <p><strong>Message</strong>: J’invite toutes les forces I invite all the driving forces of our borough to join us on the path to global and total development.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="image">
+                <img src="assets/img/Picture2.jpg"  class="img-fluid" />
+              </div>
+              <div class="card-inner">
+                <div class="header">
+                  <h4>SA MAJESTE POUOKAM GEORGES DESIRE</h4>
+                  <h6>King of Bayangam</h6>
+              </div>
+              <p><strong>Message</strong>: A single hand cannot make a package, let's unite our efforts, as one man, let's build our village.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <ul>
+              <li> <a href="index.html">Home</a></li>
+              <li> <a href="a-propos.html">About</a></li>
+              <!-- <li> <a href="comunate.html">Community</a></li> -->
+              <li> <a href="projets-communautaires.html">Projects</a></li>
+              <li> <a href="evenements.html">Events</a></li>
+              <li> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+         <!--  <div class="col-lg-3 col-md-6 footer-links">
+            <ul>
+              <li> <a href="#">Home</a></li>
+              <li> <a href="#">A Propos de Bayangam    </a></li>
+              <li> <a href="#">Projets </a></li>
+              <li> <a href="#">Evènements</a></li>
+              <li> <a href="#">Contact</a></li>
+              <li> <a href="#">Communauté</a></li>
+            </ul>
+          </div> -->
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <!-- <a href="#">
+              <img src="assets/img/reg.png">
+            </a> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+
+
+  <script src="https://kit.fontawesome.com/1f12e47486.js" crossorigin="anonymous"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        autoPlay: true,
+        center: true,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            992:{
+                items:1
+            },
+            1200:{
+                items:1
+            },
+            1400:{
+                items:1
+            }
+        }
+    });
+    </script>
+
+
+  <script type="text/javascript">
+    $('document').ready(function(){
+      $('.searchIcon').click(function(){
+        $('#navbar').hide();
+        $('a.logo').hide();
+        $('.searchForm').css('display','flex');
+      });
+      $('.hideSearch').click(function(){
+        $('#navbar').show();
+        $('a.logo').show();
+        $('.searchForm').css('display','none');
+      });
+    });
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function () {
+    var silder = $(".owl-carousel");
+    silder.owlCarousel({
+        autoPlay: true,
+        items: 1,
+        center: true,
+        nav: true,
+        margin: 33,
+        dots: false,
+        loop: true,
+        navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            575: { items: 1 },
+            768: { items: 2 },
+            991: { items: 3 },
+            1200: { items: 3 },
+            1400: { items: 3 }
+        }
+    });
+});
+</script>
+  </body>
+</html>
